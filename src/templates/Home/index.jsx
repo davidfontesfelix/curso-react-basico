@@ -72,27 +72,3 @@ useEffect(() => {
   )
 }
 
-<<<<<<< HEAD
-=======
-// export class Home extends Component {
-
-
-
-
-//   render() {
-
-
-//     const filteredPosts = !!searchValue ?
-//       allPosts.filter(post => {
-//         return post.title.toLowerCase().includes(searchValue.toLowerCase())
-//       })
-//       :
-//       posts
-
-//     return (
-     
-//     );
-//   }
-// }
->>>>>>> origin/master
-
