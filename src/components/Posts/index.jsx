@@ -1,12 +1,15 @@
 import PostCard from "../PostCard"
 import './styles.css'
 
-export default function Posts({ posts }) {
+export default function Posts({ posts = [] }) {
   return (
     <div className="posts">
       {posts.map((post) => (
         <PostCard
-          post={post}
+          title={post.title}
+          body={post.body}
+          cover={post.cover}
+          id={post.id}
           key={post.id}
         />
       ))}
